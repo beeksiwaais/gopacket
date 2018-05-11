@@ -19,7 +19,7 @@ package pcap
 #cgo windows,386 LDFLAGS: -L C:/WpdPack/Lib -lwpcap
 #cgo windows,amd64 LDFLAGS: -L C:/WpdPack/Lib/x64 -lwpcap
 #include <stdlib.h>
-#include <pcap.h>
+#include <pcap/pcap.h>
 #include <stdint.h>
 
 // Some old versions of pcap don't define this constant.
